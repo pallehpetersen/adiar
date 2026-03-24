@@ -140,18 +140,18 @@ The project is build with *CMake*, though for convenience I have simplified the
 
 The *Makefile* provides the following targets
 
-| target         | effect                                                |
-|----------------|-------------------------------------------------------|
-| `build`        | Build the source files                                |
-| `docs`         | Build the documentation files                         |
-| `clean`        | Remove all build files                                |
-|                |                                                       |
-| `tests`        | Build and run all unit tests                          |
-| `tests/...`    | Build and run a subset of the unit tests              |
-|                |                                                       |
-| `coverage`     | Build and run all unit tests and create *lcov* report |
-|                |                                                       |
-| `clang/format` | Format all files in *src/* and *test/*                |
+| target      | effect                                                |
+|-------------|-------------------------------------------------------|
+| `build`     | Build the source files                                |
+| `docs`      | Build the documentation files                         |
+| `clean`     | Remove all build files                                |
+|             |                                                       |
+| `tests`     | Build and run all unit tests                          |
+| `tests/...` | Build and run a subset of the unit tests              |
+|             |                                                       |
+| `coverage`  | Build and run all unit tests and create *lcov* report |
+|             |                                                       |
+| `format`    | Format all files in *src/* and *test/*                |
 
 ### Playground
 
