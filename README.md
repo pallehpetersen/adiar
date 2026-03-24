@@ -146,8 +146,8 @@ The *Makefile* provides the following targets
 | `docs`         | Build the documentation files                         |
 | `clean`        | Remove all build files                                |
 |                |                                                       |
-| `test`         | Build and run all unit tests                          |
-| `test/...`     | Build and run a subset of the unit tests              |
+| `tests`        | Build and run all unit tests                          |
+| `tests/...`    | Build and run a subset of the unit tests              |
 |                |                                                       |
 | `coverage`     | Build and run all unit tests and create *lcov* report |
 |                |                                                       |
