@@ -9,7 +9,7 @@ record of errors and changes we have made.
 
 # Errors
 
-## Apply PseudoCode
+## Apply Pseudocode
 
 Figure 5 of the [TACAS
 22](https://link.springer.com/chapter/10.1007/978-3-030-99527-0_16) paper has
@@ -25,7 +25,7 @@ This has been fixed in the [extended arXiv
 paper](https://arxiv.org/abs/2104.12101).
 
 
-## Reduce PseudoCode
+## Reduce Pseudocode
 
 Figure 6 of the [TACAS
 22](https://link.springer.com/chapter/10.1007/978-3-030-99527-0_16) paper has
