@@ -15,11 +15,11 @@ Figure 5 of the [TACAS
 22](https://link.springer.com/chapter/10.1007/978-3-030-99527-0_16) paper has
 the following error in its pseudocode:
 
-- The conditional on line 38 have been as follows:
+- The conditional on line 38 should have been as follows:
   ```
-  Q_{app:2} != Ø && Q_{app:2} matches (_ -> (t_f, t_g), _, __)
+  Q_app:2 != Ø && Q_app:2 matches (_ -> (t_f, t_g), _, __)
   ```
-  That is, it should only refer to the `Q_{app:2}`.
+  That is, it should only refer to the `Q_app:2`.
 
 This has been fixed in the [extended arXiv
 paper](https://arxiv.org/abs/2104.12101).
@@ -41,8 +41,9 @@ the following errors
   ```
   where `PeekMax` is similar to `PopMax` but has no side effects on the contents
   of `Q_red` and `F_leaf`.
-- The conditional on line 19 should have been `t_seek = t_f`. Otherwise, the children of `v_f` are
-  used incorrectly used when `v_f` and `v_g` have the same uid but `t_f != v_f.uid`.
+- The conditional on line 19 should have been `t_seek = t_f`. Otherwise, the
+  children of `v_f` are used incorrectly when `v_f` and `v_g` have the same uid
+  but `t_f != v_f.uid`.
 - The output on line 22 should have been `v'` not `v`.
 
 All of this has been fixed in the [extended arXiv
